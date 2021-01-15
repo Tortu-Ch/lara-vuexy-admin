@@ -1,0 +1,49 @@
+{
+  "menu": [
+    {
+      "url": "home",
+      "name": "Home",
+      "icon": "home",
+      "slug": "home"
+    },
+    {
+      "name": "Page Layouts",
+      "icon": "mail",
+      "slug": "",
+      "badge": "5",
+      "badgeClass": "badge badge-pill badge-light-danger ml-auto mr-1",
+      "submenu": [
+        {
+          "url": "layouts/collapsed-menu",
+          "name": "Collapsed Menu",
+          "icon": "circle",
+          "slug": "collapsed-menu"
+        },
+        {
+          "url": "layouts/boxed",
+          "name": "Layout Boxed",
+          "icon": "circle",
+          "slug": "layout-boxed"
+        },
+        {
+          "url": "layouts/without-menu",
+          "name": "Without Menu",
+          "icon": "circle",
+          "slug": "without-menu"
+        },
+        {
+          "url": "layouts/empty",
+          "name": "Layout Empty",
+          "icon": "circle",
+          "slug": "layout-empty"
+        },
+        {
+          "url": "layouts/blank",
+          "name": "Layout Blank",
+          "icon": "circle",
+          "slug": "layout-blank"
+        }
+      ]
+    }
+  ]
+}
