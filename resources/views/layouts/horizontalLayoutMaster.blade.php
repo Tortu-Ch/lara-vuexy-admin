@@ -55,6 +55,12 @@
   </div>
   <!-- End: Content-->
 
+  @if($configData['blankPage'] == false && isset($configData['blankPage']))
+  @include('content/pages/customizer')
+
+  @include('content/pages/buy-now')
+  @endif
+
   <div class="sidenav-overlay"></div>
   <div class="drag-target"></div>
 

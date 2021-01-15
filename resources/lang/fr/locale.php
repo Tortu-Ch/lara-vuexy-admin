@@ -1,8 +1,8 @@
 <?php
 
 return [
-  "Home"=>"Accueil",
-  "Starter Kit"=>"Kit de démarrage",
+  "Apps & Pages" => "Applications et pages",
+  "User Interface" => "Interface utilisateur",
   "Dashboards" => "Tableau de bord",
   "Analytics" => "Analytique",
   "eCommerce" => "commerce électronique",
@@ -176,5 +176,9 @@ return [
   "Tree" => "Arbre",
   "Ratings" => "Évaluations",
   "Locale" => "Lieu",
+  "Reset Password" => "réinitialiser le mot de passe",
+  "Verify Email" => "Vérifier les courriels",
+  "Deactivate Account" => "Désactiver le compte",
+  "Promotional" => "Promotionnel",
   "message" => "Gâteau au sésame s'enclenche petit pain au pain d'épices danois J'adore le pain d'épices. Tarte aux pommes jujubes chupa chups  muffin halva sucette. Gateau au chocolat gateau d 'avoine tiramisu prune sucre. Donut tourte sucrée gateau dragée fruit gateau barbe a papa citron gouttes.."
 ];

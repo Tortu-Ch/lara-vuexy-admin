@@ -1,8 +1,8 @@
 <?php
 
 return [
-  "Home"=>"Zuhause",
-  "Starter Kit"=>"Starter-Kit",
+  "Apps & Pages" => "Apps & Seiten",
+  "User Interface" => "Benutzeroberfläche",
   "Dashboards" => "Instrumententafel",
   "Analytics" => "Analytics",
   "eCommerce" => "eCommerce",
@@ -176,5 +176,9 @@ return [
   "Tree" => "Baum",
   "Ratings" => "Bewertungen",
   "Locale" => "Gebietsschema",
+  "Reset Password" => "Passwort zurücksetzen",
+  "Verify Email" => "E-Mail bestätigen",
+  "Deactivate Account" => "Benutzerkonto deaktivieren",
+  "Promotional" => "Werbung",
   "message" => "Kuchen Sesam Snaps Cupcake Lebkuchen dänisch Ich liebe Lebkuchen. Apfelkuchen Jujubes Chupa Chups Muffin Halwa Lutscher. Schokoladenkuchen-Haferkuchen-Tiramisumarzipanzuckerpflaume. Donut süße Torte Hafer Kuchen Dragée Obstkuchen Zuckerwatte Zitronentropfen."
 ];

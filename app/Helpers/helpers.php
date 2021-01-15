@@ -3,11 +3,25 @@
 namespace App\Helpers;
 
 use Config;
+use Illuminate\Support\Str;
 
 class Helper
 {
     public static function applClasses()
     {
+        // Demo
+        $fullURL = request()->fullurl();
+        if (App()->environment() === 'production') {
+            for ($i = 1; $i < 7; $i++) {
+                $contains = Str::contains($fullURL, 'demo-' . $i);
+                if ($contains === true) {
+                    $data = config('custom.' . 'demo-' . $i);
+                }
+            }
+        } else {
+            $data = config('custom.custom');
+        }
+
         // default data array
         $DefaultData = [
           'mainLayoutType' => 'vertical',
@@ -30,7 +44,7 @@ class Helper
         ];
 
         // if any key missing of array from custom.php file it will be merge and set a default value from dataDefault array and store in data variable
-        $data = array_merge($DefaultData, config('custom.custom'));
+        $data = array_merge($DefaultData, $data);
 
         // All options available in the template
         $allOptions = [
@@ -129,6 +143,15 @@ class Helper
     public static function updatePageConfig($pageConfigs)
     {
         $demo = 'custom';
+        $fullURL = request()->fullurl();
+        if (App()->environment() === 'production') {
+            for ($i = 1; $i < 7; $i++) {
+                $contains = Str::contains($fullURL, 'demo-' . $i);
+                if ($contains === true) {
+                    $demo = 'demo-' . $i;
+                }
+            }
+        }
         if (isset($pageConfigs)) {
             if (count($pageConfigs) > 0) {
                 foreach ($pageConfigs as $config => $val) {

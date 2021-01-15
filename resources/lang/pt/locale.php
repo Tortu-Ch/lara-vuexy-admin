@@ -1,8 +1,8 @@
 <?php
 
 return [
-  "Home"=>"Casa",
-  "Starter Kit"=>"Kit iniciante",
+  "Apps & Pages" => "Aplicativos e páginas",
+  "User Interface" => "Interface de usuário",
   "Dashboards" => "painel de controle",
   "Analytics" => "Analytics",
   "eCommerce" => "comércio eletrônico",
@@ -176,5 +176,9 @@ return [
   "Tree" => "Árvore",
   "Ratings" => "Avaliações",
   "Locale" => "Localidade",
+  "Reset Password" => "Redefinir senha",
+  "Verify Email" => "Verificar e-mail",
+  "Deactivate Account" => "Desativar conta",
+  "Promotional" => "Promocional",
   "message" => "O sésamo do bolo agarra dinamarquês do pão-de-espécie do queque eu amo o pão-de-espécie. Torta de torta de maçã jujubes chupa chups  pirulito halvah muffin. Ameixa do açúcar do maçapão do tiramisu do bolo da aveia do bolo de chocolate. Donut doce aveia torta dragée fruitcake algodão doce gotas de limão."
 ];

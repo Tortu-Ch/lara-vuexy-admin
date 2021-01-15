@@ -26,8 +26,8 @@
 
 @if($configData['direction'] === 'rtl' && isset($configData['direction']))
 <link rel="stylesheet" href="{{ asset(mix('css/custom-rtl.css')) }}" />
+<link rel="stylesheet" href="{{ asset(mix('css/style-rtl.css')) }}" />
 @endif
 
 {{-- user custom styles --}}
 <link rel="stylesheet" href="{{ asset(mix('css/style.css')) }}" />
-<link rel="stylesheet" href="{{ asset(mix('css/style-rtl.css')) }}" />

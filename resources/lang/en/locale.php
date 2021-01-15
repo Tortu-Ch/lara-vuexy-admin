@@ -1,8 +1,8 @@
 <?php
 
 return [
-  "Home"=>"Home",
-  "Starter Kit"=>"Starter Kit",
+  "Apps & Pages" => "Apps & Pages",
+  "User Interface" => "User Interface",
   "Dashboards" => "Dashboards",
   "Analytics" => "Analytics",
   "eCommerce" => "eCommerce",
@@ -176,5 +176,9 @@ return [
   "Tree" => "Tree",
   "Ratings" => "Ratings",
   "Locale" => "Locale",
+  "Reset Password" => "Reset Password",
+  "Verify Email" => "Verify Email",
+  "Deactivate Account" => "Deactivate Account",
+  "Promotional" => "Promotional",
   "message" => "Cake sesame snaps cupcake gingerbread danish I love gingerbread. Apple pie pie jujubes chupa chups muffin halvah lollipop. Chocolate cake oat cake tiramisu marzipan sugar plum. Donut sweet pie oat cake dragée fruitcake cotton candy lemon drops."
 ];

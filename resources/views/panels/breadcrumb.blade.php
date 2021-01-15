@@ -29,19 +29,19 @@
       <div class="dropdown">
         <button class="btn-icon btn btn-primary btn-round btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i data-feather="grid"></i></button>
         <div class="dropdown-menu dropdown-menu-right">
-          <a class="dropdown-item" href="javascript:void(0)">
+          <a class="dropdown-item" href="{{url('app/todo')}}">
             <i class="mr-1" data-feather="check-square"></i>
             <span class="align-middle">Todo</span>
           </a>
-          <a class="dropdown-item" href="javascript:void(0)">
+          <a class="dropdown-item" href="{{url('app/chat')}}">
             <i class="mr-1" data-feather="message-square"></i>
             <span class="align-middle">Chat</span>
           </a>
-          <a class="dropdown-item" href="javascript:void(0)">
+          <a class="dropdown-item" href="{{url('app/email')}}">
             <i class="mr-1" data-feather="mail"></i>
             <span class="align-middle">Email</span>
           </a>
-          <a class="dropdown-item" href="javascript:void(0)">
+          <a class="dropdown-item" href="{{url('app/calendar')}}">
             <i class="mr-1" data-feather="calendar"></i>
             <span class="align-middle">Calendar</span>
           </a>
